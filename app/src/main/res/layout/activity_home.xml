@@ -9,7 +9,7 @@
 	tools:context="me.rakshakhegde.cloveexercise.components.HomeActivity">
 
 	<Button
-		android:id="@+id/button"
+		android:id="@+id/startServiceBtn"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/start_service"/>
@@ -19,6 +19,6 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="16dp"
-		android:text="@string/otto_text_arriving"
+		android:text="@string/click_start"
 		android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 </LinearLayout>

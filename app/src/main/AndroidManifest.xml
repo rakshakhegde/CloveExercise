@@ -10,6 +10,7 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
+
 		<activity android:name=".components.HomeActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
@@ -20,6 +21,21 @@
 
 		<service
 			android:name=".components.TenSecService"
+			android:exported="false">
+		</service>
+
+		<activity
+			android:name=".components.DataBindingImplActivity"
+			android:label="CloveEx2">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<service
+			android:name=".components.TenSecDataBindingService"
 			android:exported="false">
 		</service>
 	</application>

@@ -2,7 +2,9 @@ package me.rakshakhegde.cloveexercise.dependencies;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
+import me.rakshakhegde.cloveexercise.components.DataBindingImplActivity;
 import me.rakshakhegde.cloveexercise.components.HomeActivity;
+import me.rakshakhegde.cloveexercise.components.TenSecDataBindingService;
 import me.rakshakhegde.cloveexercise.components.TenSecService;
 
 /**
@@ -17,4 +19,10 @@ abstract class InjectorsModule {
 
 	@ContributesAndroidInjector
 	abstract TenSecService tenSecService();
+
+	@ContributesAndroidInjector
+	abstract DataBindingImplActivity dataBindingImplActivity();
+
+	@ContributesAndroidInjector
+	abstract TenSecDataBindingService tenSecDataBindingService();
 }
