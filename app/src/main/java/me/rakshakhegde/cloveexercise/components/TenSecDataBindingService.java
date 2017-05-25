@@ -20,7 +20,7 @@ public class TenSecDataBindingService extends IntentService {
 	private Handler handler = new Handler();
 
 	public TenSecDataBindingService() {
-		super("TenSecService");
+		super("TenSecDataBindingService");
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class TenSecDataBindingService extends IntentService {
 		handler.postDelayed(new Runnable() {
 			@Override
 			public void run() {
-				model.data.set("Message from Otto");
+				model.data.set("Message from Data Binding");
 			}
 		}, DELAY_MILLIS);
 	}
