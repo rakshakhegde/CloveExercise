@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">CloveExercise</string>
+	<string name="start_service">Start Service</string>
+	<string name="otto_text_arriving">Otto text arriving!!!</string>
+</resources>
